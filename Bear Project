@@ -1,0 +1,75 @@
+//bear color
+fill(196, 128, 55);
+
+//r arm
+rect(80,140,100,25);
+ellipse(80,153,25,25);
+noStroke();
+rect(80,141,100,24);
+stroke(0);
+
+
+//l arm
+rect(235,153,25,67);
+ellipse(248,153,25,25);
+ellipse(248,220,25,25);
+noStroke();
+rect(235,153,25,67);
+stroke(0);
+
+//legs
+rect(170,200,25,100);
+ellipse(170,300,50,25);
+noStroke();
+rect(171,200,24,100);
+stroke(0);
+
+rect(205,200,25,100);
+ellipse(206,300,50,25);
+noStroke();
+rect(206,200,24,99);
+stroke(0);
+
+//body
+ellipse(200, 180, 100, 108);
+
+//ears
+ellipse(175,90,30,30);
+ellipse(225,90,30,30);
+
+//head
+fill(196, 128, 55);
+ellipse(200, 116, 64, 55);
+
+//mouth
+noFill();
+stroke(0, 0, 0);
+ellipse(194,128,12,12);
+ellipse(206,128,12,12);
+fill(196, 128, 55);
+noStroke();
+rect(180,115,40,13);
+
+//eyes
+fill(255, 255, 255);
+ellipse(190,110,10,18);
+ellipse(210,110,10,18);
+noStroke();
+fill(120, 190, 240);
+ellipse(190,114,5,5);
+ellipse(210,114,5,5);
+
+//hat
+fill(46, 46, 46);
+ellipse(200,99,80,10);
+ellipse(200,50,50,10);
+rect(175,50,50,50);
+
+//cane
+ellipse(65,120,34,34);
+fill(255, 255, 255);
+ellipse(65,120,20,20);
+rect(48,120,34,17);
+fill(46, 46, 46);
+ellipse(51,120,7,7);
+rect(75,120,7,100);
